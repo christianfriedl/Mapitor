@@ -4,6 +4,7 @@
     "description": "Map Itor",
     "dependencies": {
         "raphael": "^2.1.4",
-        "underscore": "^1.0"
+        "underscore": "^1.0",
+        "log4js": "^0.6.26"
     }
 }
