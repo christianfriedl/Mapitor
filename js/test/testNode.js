@@ -3,14 +3,17 @@
 var _ = require('underscore');
 var assert = require('assert');
 var m_TestSuite = require('TestSuite.js');
+var m_textNode = require('textNode.js');
 var PainterFactory = require('painterFactory.js');
 
 var tests = {
-    _name: 'testPainterFactory',
+    _name: 'testNode',
 
-    testFactoryExists: function() {
-        var tpf = PainterFactory;
-        assert.ok(tpf.forObject);
+    testCreateNode: function() {
+    },
+    testPainterForTextNode: function() {
+        var tn = m_textNode.textNode();
+        assert.ok(PainterFactory.forObject(tn) instanceof m_textNodePainter.TextNodePainter);
     }
 
 };
