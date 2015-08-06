@@ -1,6 +1,6 @@
 {
     "name": "Mapitor",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "Map Itor",
     "dependencies": {
         "raphael": "^2.1.4",
