@@ -3,3 +3,12 @@
     height: 100%;
     border: 1px solid blue;
 }
+
+#textnode-editor {
+    width: 300px;
+    height: 200px;
+    position: fixed;
+    display: none;
+    z-index: 100;
+    border: 1px solid #999;
+}
