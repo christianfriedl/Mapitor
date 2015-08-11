@@ -5,10 +5,16 @@
 }
 
 #textnode-editor {
-    width: 300px;
-    height: 200px;
+    min-width: 50px;
+    min-height: 15px;
     position: fixed;
     display: none;
     z-index: 100;
     border: 1px solid #999;
+
+    overflow: hidden;
+    padding: 3px;
+    outline: none;
+    background-color: #D0D0D0;
+    resize: none;
 }
