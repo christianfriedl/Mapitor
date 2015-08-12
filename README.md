@@ -44,7 +44,7 @@ Target Browser: Google Chrome (>= Version 44). I never tried it in any other bro
 * Be able to insert, change and delete text nodes
 * Be able to add and remove arrows (with "forward", "backward", "both" or "none" direction attribute)
 * Have the following automatic layout modes:
-** circular, hierarchical, tabular
+    * circular, hierarchical, tabular
 * Have an alternative manual layout mode in which each node is placed just where the user dropped it
 * Have a simple command language
 * Be able to zoom and scroll
