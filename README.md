@@ -60,8 +60,13 @@ Target Browser: Google Chrome (>= Version 44). I never tried it in any other bro
 
 ### Architecture:
 
+* Our basic model types are:
+    * text nodes
+    * arrows
+    * areas
 * Nodes are bound to widgets.
 * Layouts are done via layouters.
 * Widgets are painted by painters.
 * Widgets, layouters and painters are chosen by factories.
 * All UI commands are run through a Command object so as to provide undo functionality 
+* The map is the main arbitrator between the UI, the main area and the layout/painting functionality. (It might probably be renamed to controller at some point.)
