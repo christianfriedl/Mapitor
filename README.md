@@ -8,6 +8,7 @@ Version 0.1.0
 
 (c) 2015 by Christian Friedl. Released under the GPL, v3.
 
+Please note that I'm dissatisfied with the name and may change it at any point.
 
 ## Main Dependencies:
 
@@ -27,8 +28,6 @@ There is no real good installation mode as of now. Here's what I would try:
 * cd into that directory
 * run ``npm install``
 * Point browser to the file under <mapitor>/html/index.html
-
-**Please note that I'm dissatisfied with the name and may change it at any point.**
 
 ## Motivation
 Currently available mind-mapping tools (or otherwise, tools for organisating information) fall in two categories:
