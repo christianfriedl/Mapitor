@@ -17,6 +17,8 @@ Version 0.1.0
 
 (Please see package.json for the full authoritative list.)
 
+**Target Browser:** Google Chrome (>= Version 44). I never tried it in any other browser, and probably never will.
+
 ## Installation
 
 There is no real good installation mode as of now. Here's what I would try:
@@ -38,8 +40,6 @@ I want both. I want to think about layout as little as possible, and I want to b
 Furthermore, I want the whole thing to be keyboard driven as much as possible, and I want it to work in the browser for the obvious portability and maintainability advantages.
 
 (By the way, FreePlane is absolutely *awesome* and is still my go-to mindmapper! I don't see this here little project ever being a serious alternative to FreePlane.)
-
-Target Browser: Google Chrome (>= Version 44). I never tried it in any other browser, and probably never will.
 
 ## Goals for Version 1.0
 
@@ -66,6 +66,7 @@ Target Browser: Google Chrome (>= Version 44). I never tried it in any other bro
     * text nodes
     * arrows
     * areas
+* Areas are the only node type that can contain other nodes (including other areas).
 * Nodes are bound to widgets.
 * Layouts are done via layouters.
 * Widgets are painted by painters.
