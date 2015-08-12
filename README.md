@@ -4,6 +4,8 @@ In-Browser Mind Mapping Tool, written in JavaScript with Node.js
 
 Version 0.1.0
 
+**This is not a stable release. The software is in very early testing and will just create a random map with no load/save facility right now.**
+
 (c) 2015 by Christian Friedl. Released under the GPL, v3.
 
 
