@@ -4,7 +4,7 @@ In-Browser Mind Mapping Tool, written in JavaScript with Node.js
 
 Version 0.1.0
 
-**This is not a stable release. The software is in very early testing and will just create a random map with no load/save facility right now.**
+**This is not a stable release. The software is in very early pre-alpha and will just create a random map with no load/save facility right now.**
 
 (c) 2015 by Christian Friedl. Released under the GPL, v3.
 
@@ -22,12 +22,19 @@ Please note that I'm dissatisfied with the name and may change it at any point.
 
 ## Installation
 
+### If you just want to use it:
+
+* Clone the repository from https://github.com/christianfriedl/Mapitor
+* Point your browser to the file under <mapitor>/html/index.html
+
+### If you want to test/contribute/Use the Source, Luke:
+
 There is no real good installation mode as of now. Here's what I would try:
 
 * Clone the repository from https://github.com/christianfriedl/Mapitor
 * cd into that directory
 * run ``npm install``
-* Point browser to the file under <mapitor>/html/index.html
+* Point your browser to the file under <mapitor>/html/index.html
 
 ## Motivation
 Currently available mind-mapping tools (or otherwise, tools for organisating information) fall in two categories:
