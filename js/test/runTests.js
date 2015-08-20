@@ -23,4 +23,4 @@ log4js.configure({ appenders: [ { type: "console", layout: { type: "basic" } } ]
 
 // framework tests
 
-require('./testPainterFactory.js').runTests();
+require('./testCircle.js').runTests();
