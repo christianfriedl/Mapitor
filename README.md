@@ -4,7 +4,7 @@ In-Browser Mind Mapping Tool, written in JavaScript with Node.js
 
 Version 0.1.0
 
-(c) Copyright 2015 by Christian Friedl. Released under the GPL, v3.
+Copyright (c) 2015 by Christian Friedl. Released under the GPL, Version 3. See the COPYING file or visit https://www.gnu.org/licenses/gpl.html for details.
 
 **This is not a stable release. The software is in very early pre-alpha and will just create a random map with no load/save facility right now.**
 
@@ -32,7 +32,7 @@ Please note that I'm dissatisfied with the name and will probably change it at s
 ### If you just want to use it:
 
 * Clone the repository from https://github.com/christianfriedl/Mapitor
-* Point your browser to the file under <mapitor>/html/index.html
+* Point your browser to the file under &lt;mapitor-root&gt;/html/index.html
 
 ### If you want to test/contribute/Use the Source, Luke:
 
